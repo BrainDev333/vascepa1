@@ -1,0 +1,323 @@
+:root {
+  --my-start-background: 700px 0px;
+  --my-end-width: 280px;
+  --home-left-initial: 100px;
+}
+
+.ball {
+  display: inline-block;
+  width: 100%;
+  height: 100%;
+  margin: 0;
+  border-radius: 50%;
+  position: relative;
+  -webkit-transform-style: preserve-3d;
+  background: url("http://hop.ie/balls/images/world-map-one-color.png") repeat-x;
+  background-size: auto 100%;
+  background-position: var(--my-start-background);
+  /* -webkit-animation: move-map 30s infinite linear;
+  -moz-animation: move-map 30s infinite linear;
+  -o-animation: move-map 30s infinite linear;
+  -ms-animation: move-map 30s infinite linear;
+  animation: move-map 30s infinite linear; */
+}
+
+.Logo1_0 {
+  width: 36px;
+  height: 41px;
+  margin: 0;
+  /* border-radius: 50%; */
+  background-color: red;
+  position: absolute;
+  -webkit-transform-style: preserve-3d;
+  /* background: url(home.png) no-repeat; */
+  background-size: contain;
+  top: 30px;
+  left: 83px;
+  cursor: pointer;
+  display: block;
+
+}
+
+.Logo1_1 {
+  width: 36px;
+  height: 21px;
+  margin: 0;
+  /* border-radius: 50%; */
+  background-color: rgb(136, 15, 71);
+  position: absolute;
+  -webkit-transform-style: preserve-3d;
+  /* background: url(home.png) no-repeat; */
+  background-size: contain;
+  top: 63px;
+  left: 26px;
+  cursor: pointer;
+  display: block;
+
+}
+
+.Logo1_2 {
+  width: 36px;
+  height: 21px;
+  margin: 0;
+  /* border-radius: 50%; */
+  background-color: rgb(23, 160, 85);
+  position: absolute;
+  -webkit-transform-style: preserve-3d;
+  /* background: url(home.png) no-repeat; */
+  background-size: contain;
+  top: 203px;
+  left: 126px;
+  cursor: pointer;
+  display: block;
+
+}
+
+.Logo2_0 {
+  width: 36px;
+  height: 31px;
+  margin: 0;
+  /* border-radius: 50%; */
+  background-color: rgb(60, 23, 160);
+  position: absolute;
+  -webkit-transform-style: preserve-3d;
+  /* background: url(home.png) no-repeat; */
+  background-size: contain;
+  top: 137px;
+  left: 147px;
+  cursor: pointer;
+  display: none;
+
+}
+
+.Logo2_1 {
+  width: 36px;
+  height: 31px;
+  margin: 0;
+  /* border-radius: 50%; */
+  background-color: rgb(160, 23, 46);
+  position: absolute;
+  -webkit-transform-style: preserve-3d;
+  /* background: url(home.png) no-repeat; */
+  background-size: contain;
+  top: 90px;
+  left: 137px;
+  cursor: pointer;
+  display: none;
+
+}
+
+.Logo2 {
+  width: 36px;
+  height: 41px;
+  margin: 0;
+  /* border-radius: 50%; */
+  position: absolute;
+  background-color: black;
+  -webkit-transform-style: preserve-3d;
+  /* background: url(home.png) no-repeat; */
+  background-size: contain;
+  top: 59px;
+  left: 136px;
+  display: none;
+
+  cursor: pointer;
+
+}
+
+.Logo3 {
+  width: 36px;
+  height: 41px;
+  margin: 0;
+  /* border-radius: 50%; */
+  position: absolute;
+  -webkit-transform-style: preserve-3d;
+  background-color: rosybrown;
+  background-size: contain;
+  top: 128px;
+  left: 166px;
+  display: none;
+  /* background-position: 498px 0px; */
+  /* -webkit-animation: move-map 30s infinite linear;
+  -moz-animation: move-map 30s infinite linear;
+  -o-animation: move-map 30s infinite linear;
+  -ms-animation: move-map 30s infinite linear;
+  animation: move-map 30s infinite linear; */
+  cursor: pointer;
+}
+
+.ball:before {
+  content: "";
+  position: absolute;
+  top: 0%;
+  left: 0%;
+  width: 100%;
+  height: 100%;
+  border-radius: 50%;
+  box-shadow: -40px 10px 70px 10px rgba(0, 0, 0, 0.5) inset;
+  z-index: 2;
+}
+
+.ball:after {
+  content: "";
+  position: absolute;
+  border-radius: 50%;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  -webkit-filter: blur(0);
+  opacity: 0.3;
+  /* background: radial-gradient(circle at 50% 80%,
+      #2a2f5a,
+      #76deef 10%,
+      #055194 100%,
+      #2a2f5a 100%); */
+  background: rgb(42, 47, 90);
+  background: radial-gradient(circle, rgb(12, 26, 151) 100%, rgba(196, 189, 230, 0) 100%);
+}
+
+.ball .shadow {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background: radial-gradient(circle at 50% 50%,
+      rgba(0, 0, 0, 0.4),
+      rgba(0, 0, 0, 0.1) 40%,
+      rgba(0, 0, 0, 0) 50%);
+  -webkit-transform: rotateX(90deg) translateZ(-150px);
+  -moz-transform: rotateX(90deg) translateZ(-150px);
+  -ms-transform: rotateX(90deg) translateZ(-150px);
+  -o-transform: rotateX(90deg) translateZ(-150px);
+  transform: rotateX(90deg) translateZ(-150px);
+  z-index: -1;
+}
+
+body {
+  width: 300px;
+  margin: 20px auto;
+  background: linear-gradient(to bottom,
+      rgba(100, 100, 100, 0.2) 0%,
+      rgba(255, 255, 255, 0.5) 40%,
+      #ffffff 100%);
+  background-repeat: no-repeat;
+}
+
+.stage {
+  width: 300px;
+  height: 300px;
+  display: inline-block;
+  margin: 20px;
+  -webkit-perspective: 1200px;
+  -moz-perspective: 1200px;
+  -ms-perspective: 1200px;
+  -o-perspective: 1200px;
+  perspective: 1200px;
+  -webkit-perspective-origin: 50% 50%;
+  -moz-perspective-origin: 50% 50%;
+  -ms-perspective-origin: 50% 50%;
+  -o-perspective-origin: 50% 50%;
+  perspective-origin: 50% 50%;
+}
+
+@keyframes move-map {
+  0% {
+    background-position: var(--my-start-background);
+  }
+
+  100% {
+    background-position: 1600px 0;
+  }
+}
+
+@-webkit-keyframes move-map {
+  0% {
+    background-position: 0 0;
+  }
+
+  100% {
+    background-position: var(--my-start-background);
+  }
+}
+
+@-o-keyframes move-map {
+  0% {
+    background-position: var(--my-start-background);
+  }
+
+  100% {
+    background-position: 0 0;
+  }
+}
+
+@-ms-keyframes move-map {
+  0% {
+    background-position: var(--my-start-background);
+  }
+
+  100% {
+    background-position: 0 0;
+  }
+}
+
+@keyframes move-map {
+  0% {
+    background-position: var(--my-start-background);
+  }
+
+  100% {
+    background-position: 0 0;
+  }
+}
+
+.paused {
+  animation-play-state: paused;
+}
+
+
+.modal {
+  /* display: none; */
+  /* Hidden by default */
+  position: fixed;
+  /* Stay in place */
+  z-index: 1;
+  /* Sit on top */
+  padding-top: 100px;
+  /* Location of the box */
+  left: 0;
+  top: 0;
+  width: 100%;
+  /* Full width */
+  height: 100%;
+  /* Full height */
+  overflow: auto;
+  /* Enable scroll if needed */
+  background-color: rgb(0, 0, 0);
+  /* Fallback color */
+  background-color: rgba(0, 0, 0, 0.4);
+  /* Black w/ opacity */
+}
+
+/* Modal Content */
+.modal-content {
+  background-color: #fefefe;
+  margin: auto;
+  padding: 20px;
+  border: 1px solid #888;
+  width: 80%;
+}
+
+/* The Close Button */
+.close {
+  color: #aaaaaa;
+  float: right;
+  font-size: 28px;
+  font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+  color: #000;
+  text-decoration: none;
+  cursor: pointer;
+}

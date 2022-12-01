@@ -1,0 +1,72 @@
+.mainSlide3 {
+    /* background: url('../../common/images/imageback.png')no-repeat center center; */
+    background-size: contain;
+    width: 100%;
+    height: 100%;
+}
+
+.mainSlide3 {
+    position: relative;
+    display: flex;
+    align-items: center;
+    align-content: flex-end;
+    flex-direction: column;
+    justify-content: flex-start;
+}
+
+.mainSlide3_title {
+    background: url('./assets/title.png')no-repeat center center;
+    background-size: contain;
+    width: 100%;
+    height: 100%;
+}
+
+.mainSLide3_courbe {
+    background: url('./assets/courbe.png')no-repeat center center;
+    background-size: contain;
+    width: 55%;
+    height: 34%;
+    position: absolute;
+    left: 24.2%;
+    top: 32.3%;
+    animation: courbe_h 2s 0.25s cubic-bezier(0.390, 0.575, 0.565, 1.000) both
+}
+
+.mainSLide3_chiffre1 {
+    background: url('./assets/700-45.svg')no-repeat center center;
+    background-size: cover;
+    width: 7%;
+    height: 3%;
+    position: absolute;
+    left: 29.2%;
+    top: 33%;
+    animation: fade-in 1s 0.5s cubic-bezier(0.390, 0.575, 0.565, 1.000) both
+}
+
+.mainSLide3_chiffre2 {
+    background: url('./assets/500.svg')no-repeat center center;
+    background-size: cover;
+    width: 7%;
+    height: 3%;
+    position: absolute;
+    left: 62%;
+    bottom: 31.5%;
+    animation: fade-in 1s 1s cubic-bezier(0.390, 0.575, 0.565, 1.000) both
+}
+
+.mainSLide3_chiffre3 {
+    background: url('./assets/600-45.svg')no-repeat center center;
+    background-size: cover;
+    width: 7%;
+    height: 3%;
+    position: absolute;
+    left: 76.5%;
+    bottom: 45.9%;
+    animation: fade-in 1s 1.5s cubic-bezier(0.390, 0.575, 0.565, 1.000) both
+}
+
+/* .mainSlide3 h1 {
+    margin-top: 1.7rem;
+    font-size: 1.75rem;
+    color: #2a2f5a;
+} */

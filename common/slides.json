@@ -1,0 +1,101 @@
+{
+  "slides": [
+    {
+      "name": "slide1",
+      "path": "./slides/slide1/Slide1.html",
+      "Csspath": "./slides/slide1/slide1.css",
+      "jspath": "./slides/slide1/slide1.js"
+    },
+    {
+      "name": "slide2",
+      "path": "./slides/slide2/Slide2.html",
+      "Csspath": "./slides/slide2/slide2.css",
+      "jspath": "./slides/slide2/slide2.js"
+    },
+    {
+      "name": "slide3",
+      "path": "./slides/slide3/Slide3.html",
+      "Csspath": "./slides/slide3/slide3.css",
+      "jspath": "./slides/slide3/slide3.js"
+    },
+    {
+      "name": "slide4",
+      "path": "./slides/slide4/Slide4.html",
+      "Csspath": "./slides/slide4/slide4.css",
+      "jspath": "./slides/slide4/slide4.js"
+    },
+    {
+      "name": "slide5",
+      "path": "./slides/slide5/Slide5.html",
+      "Csspath": "./slides/slide5/slide5.css",
+      "jspath": "./slides/slide5/slide5.js"
+    },
+    {
+      "name": "slide6",
+      "path": "./slides/slide6/Slide6.html",
+      "Csspath": "./slides/slide6/slide6.css",
+      "jspath": "./slides/slide6/slide6.js"
+    },
+    {
+      "name": "slide7",
+      "path": "./slides/slide7/Slide7.html",
+      "Csspath": "./slides/slide7/slide7.css",
+      "jspath": "./slides/slide7/slide7.js"
+    },
+    {
+      "name": "slide8",
+      "path": "./slides/slide8/Slide8.html",
+      "Csspath": "./slides/slide8/slide8.css",
+      "jspath": "./slides/slide8/slide8.js"
+    },
+    {
+      "name": "slide8_new",
+      "path": "./slides/slide8_new/Slide8_new.html",
+      "Csspath": "./slides/slide8_new/slide8_new.css",
+      "jspath": "./slides/slide8_new/slide8_new.js"
+    },
+    {
+      "name": "slide9",
+      "path": "./slides/slide9/Slide9.html",
+      "Csspath": "./slides/slide9/slide9.css",
+      "jspath": "./slides/slide9/slide9.js"
+    },
+    {
+      "name": "slide11",
+      "path": "./slides/slide11/Slide11.html",
+      "Csspath": "./slides/slide11/slide11.css",
+      "jspath": "./slides/slide11/slide11.js"
+    },
+    {
+      "name": "slide10",
+      "path": "./slides/slide10/Slide10.html",
+      "Csspath": "./slides/slide10/slide10.css",
+      "jspath": "./slides/slide10/slide10.js"
+    },
+
+    {
+      "name": "slide12",
+      "path": "./slides/slide12/Slide12.html",
+      "Csspath": "./slides/slide12/slide12.css",
+      "jspath": "./slides/slide12/slide12.js"
+    },
+    {
+      "name": "slide13",
+      "path": "./slides/slide13/Slide13.html",
+      "Csspath": "./slides/slide13/slide13.css",
+      "jspath": "./slides/slide13/slide13.js"
+    },
+    {
+      "name": "slide14",
+      "path": "./slides/slide14/Slide14.html",
+      "Csspath": "./slides/slide14/slide14.css",
+      "jspath": "./slides/slide14/slide14.js"
+    },
+    {
+      "name": "slide15",
+      "path": "./slides/slide15/Slide15.html",
+      "Csspath": "./slides/slide15/slide15.css",
+      "jspath": "./slides/slide15/slide15.js"
+    }
+  ]
+}

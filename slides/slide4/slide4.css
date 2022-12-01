@@ -1,0 +1,45 @@
+.mainSlide4 {
+    width: 100%;
+    height: 100%;
+    position: relative;
+    display: flex;
+    align-items: center;
+    align-content: flex-end;
+    flex-direction: column;
+    justify-content: flex-start;
+}
+
+.mainSlide3 h1 {
+    margin-top: 1.7rem;
+    font-size: 1.75rem;
+    color: #2a2f5a;
+}
+
+.mainSlide4_title {
+    background: url('./assets/title.png')no-repeat center center;
+    background-size: contain;
+    width: 100%;
+    height: 100%;
+}
+
+.mainSLide4_fleches {
+    background: url('./assets/fleche.png')no-repeat center center;
+    background-size: contain;
+    width: 61%;
+    height: 22%;
+    position: absolute;
+    left: 23.5%;
+    top: 43%;
+    animation: courbe_v 1.5s 0.25s cubic-bezier(0.390, 0.575, 0.565, 1.000) both
+}
+
+.mainSLide4_result {
+    background: url('./assets/res.png')no-repeat center center;
+    background-size: contain;
+    width: 37.5%;
+    height: 8%;
+    position: absolute;
+    left: 35%;
+    top: 54%;
+    animation: fade-in 1.5s 1.5s cubic-bezier(0.390, 0.575, 0.565, 1.000) both
+}
